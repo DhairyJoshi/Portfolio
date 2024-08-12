@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">                                                    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhairy Joshi Portfolio</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="index.css">s
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Alumni+Sans+Pinstripe:ital@0;1&family=Amatic+SC:wght@400;700&family=Lovers+Quarrel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="cursor1" class="w-[5px] h-[5px] hidden lg:block absolute bg-white opacity-70 rounded-full duration-200 ease-out pointer-events-none z-[1000000000]"></div>
+    <div id="cursor2" class="w-[6rem] h-[6rem] hidden lg:block absolute bg-transparent border-2 border-solid border-white opacity-70 rounded-full duration-[0.6s] ease-out pointer-events-none z-[1000000000] animate-cursorAnimation"></div>
+
+    <header class="w-[100vw] h-[15vh] flex justify-between box-border fixed top-0 bg-black text-white px-0 lg:px-10 z-50">
+        <div class="w-[20%] lg:w-[60%] h-full text-center flex items-start lg:items-center justify-start py-2 lg:py-0">
+            <a class="cursor-pointer alumni-sans-pinstripe-regular text-6xl lg:text-8xl uppercase tracking-[-0.0em] opacity-80 ml-5" href="index.html">DJ</a>
+        </div>
+        <div class="w-[70vw] lg:w-[40%] h-[100vh] lg:h-[100%] flex flex-col justify-start lg:justify-around items-end lg:items-center raleway uppercase tracking-widest text-base lg:mx-0 transition-colors duration-500">
+            <div class="py-6 flex lg:hidden mr-5 z-50">
+                <label class="burger" for="mobileMenu">
+                    <input type="checkbox" id="mobileMenu">
+                    <span class="transition-colors duration-500 ease-in"></span>
+                    <span class="transition-colors duration-500 ease-in"></span>
+                    <span class="transition-colors duration-500 ease-in"></span>
+                </label>
+            </div>
+
+            <div id="menu" class="w-[70vw] lg:w-[40%] h-[100vh] lg:h-full pt-28 px-6 lg:p-0 absolute bg-white lg:bg-black text-black lg:text-white flex flex-col lg:flex-row justify-start lg:justify-around items-end lg:items-center raleway uppercase tracking-widest text-base mr-[-30rem] lg:mr-0 transition-[margin] ease-linear duration-500">
+                <a class="nav_link active" href="#home">Home</a>
+                <a class="nav_link" href="#education">Education</a>
+                <a class="nav_link" href="#projects">Projects</a>
+                <a class="nav_link" href="#certifications">Certifications</a>
+                <a class="nav_link" href="#contact">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="w-full h-full bg-black">
+        <section id="home" class="section h-auto w-full px-[2rem] lg:px-[20rem] pt-[12rem] lg:pt-[16rem] pb-[4rem] flex flex-col justify-center items-center space-y-16 text-white mb-28">
+            <div class="amatic-sc-regular text-6xl lg:text-7xl text-center">
+                Hi, I'm Dhairy Joshi
+            </div>
+            <div class="raleway text-center text-[1.05rem] lg:text-[1.15rem]">
+                A passionate computer engineer and student, driven by a relentless curiosity to explore and innovate. With a knack for software development, database mastery, and intuitive web design, and distinction at transforming complex problems into elegant solutions. My academic journey is marked by hands-on projects and real-world applications, showcasing a blend of technical prowess and creative ingenuity. As a collaborative team player, I thrive in dynamic environments, always eager to learn and adapt. Committed to pushing the boundaries of technology, with the aim to make significant contributions to the tech industry, continuously seeking new challenges and opportunities for growth.
+            </div>
+        </section>
+
+        <section id="education" class="section w-full h-auto flex flex-col justify-center items-center text-white text-4xl space-y-16">
+            <div class="w-full h-auto flex justify-center amatic-sc-regular text-7xl px-5">
+                Education
+            </div>
+
+            <div class="w-full h-auto flex flex-col lg:flex-row justify-between items-center px-5">
+                <div id="SSC" class="w-[23rem] h-[15rem] lg:w-[30rem] lg:h-[18rem] relative flex flex-col justify-center items-center border-2 opacity-70 box-border  text-white text-base rounded-md cursor-pointer mb-6 lg:mb-0 before:absolute before:content-[''] before:w-[7%] before:h-[12%] before:flex before:items-center before:justify-center before:text-2xl before:text-black before:bg-white before:transition-all before:duration-500 before:top-0 before:right-0 before:rounded-tl-none before:rounded-tr-[4px] before:rounded-bl-[100%] before:rounded-br-none before:rounded-[4px] hover:before:w-[100%] hover:before:h-[100%] hover:before:rounded-[4px] hover:before:transition-all hover:before:duration-500 after:absolute after:content-[''] after:w-[7%] after:h-[12%] after:flex after:items-center after:justify-center after:text-2xl after:raleway after:text-black after:bg-white after:transition-all after:duration-500 after:bottom-0 after:left-0 after:rounded-tl-none after:rounded-tr-[100%] after:rounded-br-none after:rounded-bl-[4px] after:rounded-[4px] hover:after:w-[100%] hover:after:h-[100%] hover:after:rounded-[4px] hover:after:transition-all hover:after:duration-500  hover:after:content-['SSC_Certificate']">
+                    <div class="raleway text-lg">Bright English School</div>
+                    <div class="raleway text-2xl">S.S.C. - Completed</div>
+                    <div class="raleway text-lg">Marks: 83.33</div>
+                    <div class="raleway text-lg">Year: 2020</div>
+                </div>
+
+                <div id="DE" class="w-[23rem] h-[15rem] lg:w-[30rem] lg:h-[18rem] relative flex flex-col justify-center items-center border-2 opacity-70 box-border  text-white text-base rounded-md cursor-pointer mb-6 lg:mb-0 before:absolute before:content-[''] before:w-[7%] before:h-[12%] before:flex before:items-center before:justify-center before:text-2xl before:text-black before:bg-white before:transition-all before:duration-500 before:top-0 before:right-0 before:rounded-tl-none before:rounded-tr-[4px] before:rounded-bl-[100%] before:rounded-br-none before:rounded-[4px] hover:before:w-[100%] hover:before:h-[100%] hover:before:rounded-[4px] hover:before:transition-all hover:before:duration-500 after:absolute after:content-[''] after:w-[7%] after:h-[12%] after:flex after:items-center after:justify-center after:text-2xl after:raleway after:text-black after:bg-white after:transition-all after:duration-500 after:bottom-0 after:left-0 after:rounded-tl-none after:rounded-tr-[100%] after:rounded-br-none after:rounded-bl-[4px] after:rounded-[4px] hover:after:w-[100%] hover:after:h-[100%] hover:after:rounded-[4px] hover:after:transition-all hover:after:duration-500  hover:after:content-['Diploma_in_Engineering']">
+                    <div class="raleway text-lg">Government Polytechnic Ahmedabad</div>
+                    <div class="raleway text-2xl">D.E. - Completed</div>
+                    <div class="raleway text-lg">CGPA: 9.28</div>
+                    <div class="raleway text-lg">Year: 2023</div>
+                </div>
+
+                <div id="BE" class="w-[23rem] h-[15rem] lg:w-[30rem] lg:h-[18rem] relative flex flex-col justify-center items-center border-2 opacity-70 box-border  text-white text-base rounded-md cursor-pointer mb-6 lg:mb-0 before:absolute before:content-[''] before:w-[7%] before:h-[12%] before:flex before:items-center before:justify-center before:text-2xl before:text-black before:bg-white before:transition-all before:duration-500 before:top-0 before:right-0 before:rounded-tl-none before:rounded-tr-[4px] before:rounded-bl-[100%] before:rounded-br-none before:rounded-[4px] hover:before:w-[100%] hover:before:h-[100%] hover:before:rounded-[4px] hover:before:transition-all hover:before:duration-500 after:absolute after:content-[''] after:w-[7%] after:h-[12%] after:flex after:items-center after:justify-center after:text-2xl after:raleway after:text-black after:bg-white after:transition-all after:duration-500 after:bottom-0 after:left-0 after:rounded-tl-none after:rounded-tr-[100%] after:rounded-br-none after:rounded-bl-[4px] after:rounded-[4px] hover:after:w-[100%] hover:after:h-[100%] hover:after:rounded-[4px] hover:after:transition-all hover:after:duration-500  hover:after:content-['Bacherlor_of_Engineering']">
+                    <div class="raleway text-lg">NLJIET</div>
+                    <div class="raleway text-2xl">B.E. - Ongoing</div>
+                    <div class="raleway text-lg">CPI: 9.65 (Sem 3)
+                    </div>
+                    <div class="raleway text-lg">Year: 2024</div>
+                </div>
+            </div>
+
+            <div class="w-full h-auto flex justify-center amatic-sc-regular text-7xl px-5">
+                Skills
+            </div>
+
+            <div class="w-full h-auto px-[2rem] lg:px-[15rem] flex items-center justify-center flex-wrap">
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat2 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Python
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat2 [&:focus>span:before]:animate-chitchat2">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Java
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Javascript
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat3 [&:focus>span:before]:animate-chitchat3">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        C
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat2 [&:focus>span:before]:animate-chitchat2">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        C++
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat2 [&:focus>span:before]:animate-chitchat2">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        HTML
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat2 [&:focus>span:before]:animate-chitchat2">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        CSS
+                    </span>
+                </div>
+            
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Kotlin
+                    </span>
+                </div>
+                
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat2 [&:focus>span:before]:animate-chitchat2">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        SQL
+                    </span>
+                </div>
+    
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Angular
+                    </span>
+                </div>
+    
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Tailwind CSS
+                    </span>
+                </div>
+    
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        React
+                    </span>
+                </div>
+    
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Django
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Docker
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Kubernetes
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat2 [&:focus>span:before]:animate-chitchat2">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        GIT
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat2 [&:focus>span:before]:animate-chitchat2">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        CI-CD
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Jenkins
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Rabbit MQ
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat2 [&:focus>span:before]:animate-chitchat2">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Nginx
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        AWS
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Linux
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        Ubuntu
+                    </span>
+                </div>
+
+                <div class="py-3 px-6 mb-6 mr-6 text-xl flex justify-center items-center bg-white opacity-70 box-border text-black raleway border-none  rounded-sm overflow-hidden duration-300 hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white [&:hover>span]:text-black [&:focus>span]:text-black [&:hover>span:before]:animate-chitchat1 [&:focus>span:before]:animate-chitchat1">
+                    <span class="relative tracking-[0.1rem] duration-300 box-border bg-inherit before:absolute before:content-[''] before:box-border before:bg-inherit">
+                        CentOS
+                    </span>
+                </div>  
+            </div>
+        </section>
+
+        <section id="projects" class="section h-[100vh] w-full flex justify-center items-center text-white text-4xl">
+            Projects
+        </section>
+
+        <section id="certifications" class="section h-full w-full flex flex-col justify-center items-center text-white">
+            <div class="w-full h-auto flex justify-center amatic-sc-regular text-7xl mb-12">
+                Certifications
+            </div>
+
+            <div class="flex justify-center items-center flex-wrap px-20">
+                <div class="w-[20rem] h-[15rem] relative flex flex-col rounded-2xl overflow-hidden bg-black border-2 border-white mb-12 mx-6 before:content-[''] before:w-[170px] before:h-[170px] before:absolute before:top-[-40%] before:left-[-20%] before:rounded-[50%] before:border-[2.188rem] before:border-solid before:border-[#ffffff1a] before:transition-all before:duration-[0.8s] before:ease-in-out before:blur-[0.5rem] hover:before:w-[210px] hover:before:h-[210px] hover:before:top-[-30%] hover:before:left-[50%] hover:before:blur-0">
+                    <div class="flex-grow p-4 flex flex-col text-white font-black text-[1.2rem] raleway">
+                        <span>Computer Science: Programming with a purpose</span>
+                        <p class="text-[0.6em] font-light text-white poppins-light">Princeton University</p>
+                    </div>
+                    <div class="w-[20rem] flex justify-center items-center rounded-none overflow-hidden border-t-2 border-white">
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duration-500" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" class="w-[37px] h-[37px] stroke-white">
+                                <path d="M5 12V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V12"  stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 3L12 15M12 15L16 11M12 15L8 11" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duras" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" class="w-[44px] h-[44px] stroke-white">
+                                <g clip-path="url(#clip0_15_200)">
+                                <circle cx="12" cy="13" r="2" stroke-linejoin="round"/>
+                                <path d="M12 7.5C7.69517 7.5 4.47617 11.0833 3.39473 12.4653C3.14595 12.7832 3.14595 13.2168 3.39473 13.5347C4.47617 14.9167 7.69517 18.5 12 18.5C16.3048 18.5 19.5238 14.9167 20.6053 13.5347C20.8541 13.2168 20.8541 12.7832 20.6053 12.4653C19.5238 11.0833 16.3048 7.5 12 7.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duras" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none" class="w-[33px] h-[33px] stroke-white">
+                                <circle cx="12" cy="12" r="9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 11V17" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.75 8V7H12.25V8H11.75Z" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-[20rem] h-[15rem] relative flex flex-col rounded-2xl overflow-hidden bg-black border-2 border-white mb-12 mx-6 before:content-[''] before:w-[170px] before:h-[170px] before:absolute before:top-[-40%] before:left-[-20%] before:rounded-[50%] before:border-[2.188rem] before:border-solid before:border-[#ffffff1a] before:transition-all before:duration-[0.8s] before:ease-in-out before:blur-[0.5rem] hover:before:w-[210px] hover:before:h-[210px] hover:before:top-[-30%] hover:before:left-[50%] hover:before:blur-0">
+                    <div class="flex-grow p-4 flex flex-col text-white font-black text-[1.2rem] raleway">
+                        <span>Getting Started with Python</span>
+                        <p class="text-[0.6em] font-light text-white poppins-light">University Of Michigan</p>
+                    </div>
+                    <div class="w-[20rem] flex justify-center items-center rounded-none overflow-hidden border-t-2 border-white">
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duration-500" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" class="w-[37px] h-[37px] stroke-white">
+                                <path d="M5 12V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V12"  stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 3L12 15M12 15L16 11M12 15L8 11" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duras" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" class="w-[44px] h-[44px] stroke-white">
+                                <g clip-path="url(#clip0_15_200)">
+                                <circle cx="12" cy="13" r="2" stroke-linejoin="round"/>
+                                <path d="M12 7.5C7.69517 7.5 4.47617 11.0833 3.39473 12.4653C3.14595 12.7832 3.14595 13.2168 3.39473 13.5347C4.47617 14.9167 7.69517 18.5 12 18.5C16.3048 18.5 19.5238 14.9167 20.6053 13.5347C20.8541 13.2168 20.8541 12.7832 20.6053 12.4653C19.5238 11.0833 16.3048 7.5 12 7.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duras" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none" class="w-[33px] h-[33px] stroke-white">
+                                <circle cx="12" cy="12" r="9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 11V17" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.75 8V7H12.25V8H11.75Z" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-[20rem] h-[15rem] relative flex flex-col rounded-2xl overflow-hidden bg-black border-2 border-white mb-12 mx-6 before:content-[''] before:w-[170px] before:h-[170px] before:absolute before:top-[-40%] before:left-[-20%] before:rounded-[50%] before:border-[2.188rem] before:border-solid before:border-[#ffffff1a] before:transition-all before:duration-[0.8s] before:ease-in-out before:blur-[0.5rem] hover:before:w-[210px] hover:before:h-[210px] hover:before:top-[-30%] hover:before:left-[50%] hover:before:blur-0">
+                    <div class="flex-grow p-4 flex flex-col text-white font-black text-[1.2rem] raleway">
+                        <span>Python Data Structures</span>
+                        <p class="text-[0.6em] font-light text-white poppins-light">University of Michigan</p>
+                    </div>
+                    <div class="w-[20rem] flex justify-center items-center rounded-none overflow-hidden border-t-2 border-white">
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duration-500" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" class="w-[37px] h-[37px] stroke-white">
+                                <path d="M5 12V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V12"  stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 3L12 15M12 15L16 11M12 15L8 11" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duras" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" class="w-[44px] h-[44px] stroke-white">
+                                <g clip-path="url(#clip0_15_200)">
+                                <circle cx="12" cy="13" r="2" stroke-linejoin="round"/>
+                                <path d="M12 7.5C7.69517 7.5 4.47617 11.0833 3.39473 12.4653C3.14595 12.7832 3.14595 13.2168 3.39473 13.5347C4.47617 14.9167 7.69517 18.5 12 18.5C16.3048 18.5 19.5238 14.9167 20.6053 13.5347C20.8541 13.2168 20.8541 12.7832 20.6053 12.4653C19.5238 11.0833 16.3048 7.5 12 7.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duras" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none" class="w-[33px] h-[33px] stroke-white">
+                                <circle cx="12" cy="12" r="9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 11V17" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.75 8V7H12.25V8H11.75Z" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-[20rem] h-[15rem] relative flex flex-col rounded-2xl overflow-hidden bg-black border-2 border-white mb-12 mx-6 before:content-[''] before:w-[170px] before:h-[170px] before:absolute before:top-[-40%] before:left-[-20%] before:rounded-[50%] before:border-[2.188rem] before:border-solid before:border-[#ffffff1a] before:transition-all before:duration-[0.8s] before:ease-in-out before:blur-[0.5rem] hover:before:w-[210px] hover:before:h-[210px] hover:before:top-[-30%] hover:before:left-[50%] hover:before:blur-0">
+                    <div class="flex-grow p-4 flex flex-col text-white font-black text-[1.2rem] raleway">
+                        <span>Using Python To Access Web Data</span>
+                        <p class="text-[0.6em] font-light text-white poppins-light">University of Michigan</p>
+                    </div>
+                    <div class="w-[20rem] flex justify-center items-center rounded-none overflow-hidden border-t-2 border-white">
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duration-500" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" class="w-[37px] h-[37px] stroke-white">
+                                <path d="M5 12V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V12"  stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 3L12 15M12 15L16 11M12 15L8 11" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duras" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" class="w-[44px] h-[44px] stroke-white">
+                                <g clip-path="url(#clip0_15_200)">
+                                <circle cx="12" cy="13" r="2" stroke-linejoin="round"/>
+                                <path d="M12 7.5C7.69517 7.5 4.47617 11.0833 3.39473 12.4653C3.14595 12.7832 3.14595 13.2168 3.39473 13.5347C4.47617 14.9167 7.69517 18.5 12 18.5C16.3048 18.5 19.5238 14.9167 20.6053 13.5347C20.8541 13.2168 20.8541 12.7832 20.6053 12.4653C19.5238 11.0833 16.3048 7.5 12 7.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duras" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none" class="w-[33px] h-[33px] stroke-white">
+                                <circle cx="12" cy="12" r="9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 11V17" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.75 8V7H12.25V8H11.75Z" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-[20rem] h-[15rem] relative flex flex-col rounded-2xl overflow-hidden bg-black border-2 border-white mb-12 mx-6 before:content-[''] before:w-[170px] before:h-[170px] before:absolute before:top-[-40%] before:left-[-20%] before:rounded-[50%] before:border-[2.188rem] before:border-solid before:border-[#ffffff1a] before:transition-all before:duration-[0.8s] before:ease-in-out before:blur-[0.5rem] hover:before:w-[210px] hover:before:h-[210px] hover:before:top-[-30%] hover:before:left-[50%] hover:before:blur-0">
+                    <div class="flex-grow p-4 flex flex-col text-white font-black text-[1.2rem] raleway">
+                        <span>Retrieving, Processing and Visualizing Data with Python</span>
+                        <p class="text-[0.6em] font-light text-white poppins-light">University of Michigan</p>
+                    </div>
+                    <div class="w-[20rem] flex justify-center items-center rounded-none overflow-hidden border-t-2 border-white">
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duration-500" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" class="w-[37px] h-[37px] stroke-white">
+                                <path d="M5 12V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V12"  stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 3L12 15M12 15L16 11M12 15L8 11" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duras" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" class="w-[44px] h-[44px] stroke-white">
+                                <g clip-path="url(#clip0_15_200)">
+                                <circle cx="12" cy="13" r="2" stroke-linejoin="round"/>
+                                <path d="M12 7.5C7.69517 7.5 4.47617 11.0833 3.39473 12.4653C3.14595 12.7832 3.14595 13.2168 3.39473 13.5347C4.47617 14.9167 7.69517 18.5 12 18.5C16.3048 18.5 19.5238 14.9167 20.6053 13.5347C20.8541 13.2168 20.8541 12.7832 20.6053 12.4653C19.5238 11.0833 16.3048 7.5 12 7.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duras" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none" class="w-[33px] h-[33px] stroke-white">
+                                <circle cx="12" cy="12" r="9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 11V17" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.75 8V7H12.25V8H11.75Z" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-[20rem] h-[15rem] relative flex flex-col rounded-2xl overflow-hidden bg-black border-2 border-white mb-12 mx-6 before:content-[''] before:w-[170px] before:h-[170px] before:absolute before:top-[-40%] before:left-[-20%] before:rounded-[50%] before:border-[2.188rem] before:border-solid before:border-[#ffffff1a] before:transition-all before:duration-[0.8s] before:ease-in-out before:blur-[0.5rem] hover:before:w-[210px] hover:before:h-[210px] hover:before:top-[-30%] hover:before:left-[50%] hover:before:blur-0">
+                    <div class="flex-grow p-4 flex flex-col text-white font-black text-[1.2rem] raleway">
+                        <span>DevOps Beginners to Advanced with Projects</span>
+                        <p class="text-[0.6em] font-light text-white poppins-light">Udemy - Imran Teli</p>
+                    </div>
+                    <div class="w-[20rem] flex justify-center items-center rounded-none overflow-hidden border-t-2 border-white">
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duration-500" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" class="w-[37px] h-[37px] stroke-white">
+                                <path d="M5 12V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V12"  stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 3L12 15M12 15L16 11M12 15L8 11" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duras" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" class="w-[44px] h-[44px] stroke-white">
+                                <g clip-path="url(#clip0_15_200)">
+                                <circle cx="12" cy="13" r="2" stroke-linejoin="round"/>
+                                <path d="M12 7.5C7.69517 7.5 4.47617 11.0833 3.39473 12.4653C3.14595 12.7832 3.14595 13.2168 3.39473 13.5347C4.47617 14.9167 7.69517 18.5 12 18.5C16.3048 18.5 19.5238 14.9167 20.6053 13.5347C20.8541 13.2168 20.8541 12.7832 20.6053 12.4653C19.5238 11.0833 16.3048 7.5 12 7.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="w-1/3 h-[3rem] bg-black flex items-center justify-center border-none hover:bg-white [&:hover>svg]:stroke-black transition-all duras" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none" class="w-[33px] h-[33px] stroke-white">
+                                <circle cx="12" cy="12" r="9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 11V17" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.75 8V7H12.25V8H11.75Z" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section h-[100vh] w-full flex justify-center items-center text-white text-4xl">
+            Contact
+        </section>
+    </main> 
+</body>
+</html>
