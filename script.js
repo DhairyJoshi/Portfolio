@@ -62,14 +62,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#SSC').addEventListener('click', function () {
-        window.location.href = 'https://www.google.com';
+        window.location.href = 'docs/SSC_certi.pdf';
     });
 
     document.querySelector('#DE').addEventListener('click', function () {
-        window.location.href = 'https://www.openai.com';
+        window.location.href = 'docs/DE_passing_certi.pdf';
     });
 
     document.querySelector('#BE').addEventListener('click', function () {
-        window.location.href = 'https://www.instagram.com';
+        window.location.href = 'docs/BE_SEM3_certi.pdf';
     });
 });
