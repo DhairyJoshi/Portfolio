@@ -62,14 +62,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#SSC').addEventListener('click', function () {
-        window.location.href = 'docs/SSC_certi.pdf';
+        window.open('docs/SSC_certi.pdf', '_blank');
     });
 
     document.querySelector('#DE').addEventListener('click', function () {
-        window.location.href = 'docs/DE_passing_certi.pdf';
+        window.open('docs/DE_passing_certi.pdf', '_blank');
     });
 
     document.querySelector('#BE').addEventListener('click', function () {
-        window.location.href = 'docs/BE_SEM3_certi.pdf';
+        window.open('docs/BE_SEM3_certi.pdf', '_blank');
     });
 });
