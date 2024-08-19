@@ -2237,6 +2237,14 @@ video {
     width: 20rem;
   }
 
+  .lg\:w-\[28rem\] {
+    width: 28rem;
+  }
+
+  .lg\:w-\[26rem\] {
+    width: 26rem;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
